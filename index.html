@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <!-- <link rel="stylesheet" href="java"> -->
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            padding: 10px;
+
+        }
+        span{
+            background-color: rgb(181, 163, 163);
+            padding: 1px 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .top{
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 100px;
+        }
+        .messageBox{
+            display: flex;
+            gap: 10px;
+            align-items: flex-start;
+            width: 100%;
+        }
+        .miniInfo{
+            border-top: 1px solid grey;
+            width: 100%;
+            border-bottom: 1px solid grey;
+        }
+        .main{
+            background-color: rgba(0, 255, 255,0.3);
+            padding: 10px;
+            border-radius: 0 0 10px 10px;
+            display: none;
+        }
+        .message input{
+            display: none;
+        }
+        .message input:checked + .main{
+            display: block;
+        }
+        .box{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- the topof my message box -->
+    <!-- <div class="top">
+        <p class="refresh">ref</p>
+        <span>del</span>
+        <p id="number">50</p>
+    </div> -->
+
+    <!-- container housing the message contents -->
+    <!-- <div class="box"></div> -->
+
+
+
+
+    <script src="./java.js"></script>
+</body>
+</html>

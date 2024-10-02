@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+    <!-- <link rel="stylesheet" href="java"> -->
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: rgb(113, 60, 60);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        .box{
+            background-color: white;
+            min-height: 200px;
+            width: 400px;
+        }
+        .inputBox{
+            background-color: rgba(123, 123, 240, 0.629);
+            height: 50px;
+            display: flex;
+            padding: 7px 10px;
+            gap: 5px;
+        }
+        .inputBox>input{
+            width: 100%;
+            height: 100%;
+            border-radius: 5px;
+            outline: none;
+            border: 1px solid rgb(113, 60, 60);
+            padding-left: 10px;
+        }
+        .inputBox>button{
+            width: 100px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .dataBox{
+            height: 100%;
+            /* border: 2px solid red; */
+            display: flex;
+            flex-direction: column;
+            /* gap: 5px; */
+        }
+        .data{
+            padding: 10px 10px;
+            /* border-top: 1px solid rgba(123, 123, 240, 0.629); */
+            border-bottom: 1px solid rgba(123, 123, 240, 0.629);
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div class="box">
+        <div class="inputBox">
+            <input type="text">
+            <button>add</button>
+        </div>
+        <div class="dataBox"></div> -->
+    <!-- </div> -->
+
+
+    <form>
+        <div>
+            <label for="">name</label>
+            <input type="text" id="name">
+        </div>        
+        <div>
+            <label for="">email</label>
+            <input type="email" id="email">
+        </div>        
+        <div>
+            <label for="">password</label>
+            <input type="password" id="pass">
+        </div>        
+        <div>
+            <label for="">number</label>
+            <input type="text" id="num">
+        </div>        
+        <div>
+            <label for="">personalinfo</label>
+            <textarea name="" id="info" cols="17" rows="3"></textarea>
+        </div> 
+        <input type="submit" id="save">       
+    </form>
+
+    <script src="./java2.js"></script>
+</body>
+</html>
